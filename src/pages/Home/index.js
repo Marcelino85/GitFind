@@ -41,6 +41,7 @@ function App() {
                 value={user} 
                 onChange={event => setUser(event.target.value)}
                 placeholder ='@username'
+                autoFocus
                 
                 />
                 <button onClick={handleGetData} >Buscar</button>
